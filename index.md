@@ -354,7 +354,7 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-<p>This workshop will be held in a computer lab with 
+<p>This workshop will be held in a training lab with pre-configured Mac computers provided. There is no need for you to set anything up beforehand.
   
 {% comment %}
   To participate in a
@@ -393,7 +393,6 @@ to include the relevant installation instrucctions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
-{% endcomment %}
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
@@ -402,3 +401,5 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+
+{% endcomment %}
