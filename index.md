@@ -340,6 +340,7 @@ please preview your site before committing, and make sure to run
 <hr/>
 
 
+{% comment %}
 SETUP
 
 Delete irrelevant sections from the setup instructions.  Each
@@ -349,6 +350,7 @@ and end easier to find.
 This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
+{% endcomment %}
 
 <h2 id="setup">Setup</h2>
 
@@ -389,6 +391,7 @@ to include the relevant installation instrucctions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
+{% endcomment %}
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
@@ -397,4 +400,3 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
-{% endcomment %}
