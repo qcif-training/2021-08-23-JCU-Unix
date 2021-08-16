@@ -354,7 +354,9 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-<p>
+<p>This workshop will be held in a computer lab with 
+  
+{% comment %}
   To participate in a
   {% if site.carpentry == "swc" %}
   Software Carpentry
@@ -374,7 +376,7 @@ please preview your site before committing, and make sure to run
 </p>
 
 
-{% comment %}
+
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
 - recommendations for setting up Learners' workspace so they can follow along
